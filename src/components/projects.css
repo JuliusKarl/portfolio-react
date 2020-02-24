@@ -7,6 +7,10 @@ small {
     color: #696969;
 }
 
+hr {
+    color: #ffffff;
+  }
+
 .projects-content {
     text-align: center;
     width: 90%;
@@ -36,6 +40,7 @@ small {
     color: black;
     transition: background 0.2s;
 }
+
 
 @media only screen and (max-width: 650px) {
     .projects-content {

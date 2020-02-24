@@ -45,7 +45,7 @@ const projects = [
         "description": "A social media web application for vocal conversation. Involved as an intern developer",
         "image": "",
         "link": "https://www.eugra.app/",
-        "skills": "HTML . CSS . ES6 . jQuery . PHP . Linux . NginX"
+        "skills": "HTML . CSS . ES6 . ReactJS"
     }
 ]
 
