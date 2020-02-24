@@ -1,0 +1,28 @@
+.about-content {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.parallax { 
+    background-image: url("../resources/DSC00227_compressed.jpg");
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px 0;
+  }
+
+@media only screen and (max-width: 650px) {
+    .parallax { 
+        background: #f7f7f7;
+        color: black;
+        height: auto;
+        padding: 10px 0px;
+      }
+      .about-content {
+        width: 90%;
+        text-align: left;
+    }
+}

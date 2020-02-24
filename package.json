@@ -1,0 +1,46 @@
+{
+  "name": "my-website",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:5000",
+  "homepage": "https://juliuskarl.dev",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "axios": "^0.19.0",
+    "nodemailer": "^6.3.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "react-scripts": "^3.1.1",
+    "react-typing-animation": "^1.6.2",
+    "react-typist": "^2.0.5",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0",
+    "save": "^2.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.1.1",
+    "nodemon": "^1.19.1"
+  },
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
