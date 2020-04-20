@@ -21,7 +21,7 @@ class About extends Component {
             data-aos="fade-right"
             data-aos-duration="800"
             data-aos-once="true">
-              A Front-End developer specializing in ReactJS and Javascript frameworks. <br/> <br/>Having graduated from The University of Auckland majoring in Computer Science, I am now pursuing a career towards Full-Stack Web Development currently using the MERN stack framework.  I am passionate about creating innovative solutions and being able to expand the limitations of our current technology.
+              A Full-Stack Developer specializing in ReactJS and Angular 8<br/> <br/> After graduating from The University of Auckland with a Bachelor's degree in Computer Science I am pursuing a career towards Full-Stack Web Development using the MERN and MEAN technology stacks and am highly interested in Full-Stack UX Design with a focus on photography and digital media.  I am passionate about creating innovative solutions and being able to expand the limitations of our current technology.
             </p>
           <a id="projectsLink"><h2 style={{visibility: 'hidden'}}>Projects</h2></a>
         </div>

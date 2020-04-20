@@ -33,7 +33,7 @@ const projects = [
     },
     {
         "id": 5,
-        "name": "Taskr",
+        "name": "Tasx",
         "description": "A Simple Redux Task Planner.",
         "image": "../resources/cardthumbs/jkmacro.JPG",
         "link": "https://reduxplayground.netlify.com/",
@@ -41,11 +41,27 @@ const projects = [
     },
     {
         "id": 6,
-        "name": "Eugra",
-        "description": "A social media web application for vocal conversation. Involved as an intern developer",
+        "name": "Eugra v1",
+        "description": "Social media app for vocal conversation.",
         "image": "",
         "link": "https://www.eugra.app/",
-        "skills": "HTML . CSS . ES6 . ReactJS"
+        "skills": "HTML . CSS . ES6"
+    },
+    {
+        "id": 7,
+        "name": "Eugra v2",
+        "description": "Social media app for vocal conversation built with ReactJS",
+        "image": "",
+        "link": "https://eugra.juliuskarl.dev/",
+        "skills": "HTML . CSS . ES6 . Reactjs . RESTful API"
+    },
+    {
+        "id": 8,
+        "name": "Journey",
+        "description": "A Bible platform for prayer management and scripture study. (in development)",
+        "image": "",
+        "link": "http://54.209.250.189/",
+        "skills": "HTML . CSS . ES6 . Reactjs . Nodejs . Expressjs . MongoDB . RESTful API . AWS"
     }
 ]
 

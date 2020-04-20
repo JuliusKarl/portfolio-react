@@ -61,7 +61,9 @@ class Contact extends Component {
               data-aos-duration="800"
               data-aos-once="true"
               className="contactForm">
-                <form id="contact-form" onSubmit={this.handleSubmit}>
+
+                {/* Until you can get the expres form working */}
+                {/* <form id="contact-form" onSubmit={this.handleSubmit}>
                   <div className="contactInputs">
                     <br/>
                     <input 
@@ -94,9 +96,12 @@ class Contact extends Component {
                     <br/>
                     <button type="submit">Submit</button>
                   </div>
-                </form>
+                </form> */}
+
                 <div className="contactMessage">
-                  <p>Have an enquiry?<br/><br/> Leave me a message and i'll be sure to get back to you or alternatively you can email <a href = "mailto: julius.karl.macrohon@gmail.com"><i>julius.karl.macrohon@gmail.com</i></a> directly.</p>
+                  <div style={{height:"5vh"}}></div>
+                  <p>Have an enquiry?<br/><br/> Send me an email at <br></br><a href = "mailto: julius.karl.macrohon@gmail.com"><i>julius.karl.macrohon@gmail.com</i></a><br></br> and i'll get back to you soon! </p>
+                  <div style={{height:"30vh"}}></div>
                 </div>
             </div>
         </div>
