@@ -1,0 +1,6 @@
+1. Do your code changes
+2. git push --set-upstream origin master => Saves files in 'master' but doesn't make live changes to website
+3. npm run deploy => This pushes the changes to the live website
+4. GitHub setttings, change custom domain to 'juliuskarl.dev'
+
+Done.
