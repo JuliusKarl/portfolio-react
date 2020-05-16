@@ -60,7 +60,7 @@ const projects = [
         "name": "Journey",
         "description": "A Bible platform for prayer management and scripture study. (in development)",
         "image": "",
-        "link": "http://18.233.138.219/",
+        "link": "https://journey.juliuskarl.dev/",
         "skills": "HTML . CSS . ES6 . Reactjs . Nodejs . Expressjs . MongoDB . RESTful API . AWS"
     }
 ]

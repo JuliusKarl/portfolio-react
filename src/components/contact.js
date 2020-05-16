@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import './contacts.css'
+import './contacts.css';
+import '../index.css';
 
 class Contact extends Component {
   constructor() {

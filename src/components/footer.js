@@ -12,11 +12,11 @@ class Footer extends Component {
     return (
       <div className="footer">
         <div className="socialMedia">
-            <a href="https://www.facebook.com/aHR0cDovL2prbWFjcm8uY29tLw"><img src={fb}/></a>
-            <a href="https://www.linkedin.com/in/juliuskarl/"><img src={ld}/></a>
-            <a href="https://www.instagram.com/juliuskarlm/"><img src={ig}/></a>
+            <a href="https://www.facebook.com/aHR0cDovL2prbWFjcm8uY29tLw" alt="Facebook"><img src={fb}/></a>
+            <a href="https://www.linkedin.com/in/juliuskarl/" alt="linkedIn"><img src={ld}/></a>
+            <a href="https://www.instagram.com/juliuskarlm/" alt="Instagram"><img src={ig}/></a>
         </div>
-        © 2018 JKMACRO AND MACROMEDIA LIMITED ALL RIGHTS RESERVED
+        © 2020 JKMACRO AND MACROMEDIA LIMITED ALL RIGHTS RESERVED
         <hr/>
       </div>
     );

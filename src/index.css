@@ -22,8 +22,12 @@ a, a:visited {
   color: inherit;
 }
 
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('./resources/fonts/weezerfont.ttf');}
+
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'MyWebFont';
   font-size: 18px;
   letter-spacing: 1px;
   color: white;
@@ -116,11 +120,6 @@ p, button {
     height: 100vh;
   }
 }
-/* Rainbow Text */
-/**/
-/**/
-@import url(https://fonts.googleapis.com/css?family=Pacifico);
-@import url('https://fonts.googleapis.com/css?family=Anton');
 
 /* Down arrow */
 /**/

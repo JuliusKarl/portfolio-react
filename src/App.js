@@ -6,6 +6,7 @@ import Contact from "./components/contact"
 import Footer from "./components/footer"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import {isMobile} from 'react-device-detect';
 
 class App extends Component {
   constructor() {
@@ -25,15 +26,24 @@ class App extends Component {
   componentDidMount() {
     setInterval(()=>{this.setState({msg6:!this.state.msg6})}, 500);
     AOS.init();
+    {!isMobile? window.VANTA.NET({
+      el: "#bg",
+      color: 0x262626,
+      backgroundColor: 0x181a1c,
+      points: 10,
+      maxDistance: 35.00,
+      spacing: 20.00,
+      showDots: false
+    }) : 
     window.VANTA.NET({
       el: "#bg",
-      color: 0x5f5f5f,
-      backgroundColor: 0x25272b,
-      points: 12,
-      maxDistance: 26.00,
-      spacing: 18.00,
+      color: 0xffffff,
+      backgroundColor: 0x181a1c,
+      points: 0,
+      maxDistance: 0,
+      spacing: 0,
       showDots: false
-    });
+    })};
   }
 
   render() {
@@ -53,7 +63,7 @@ class App extends Component {
                       data-aos-duration="800"
                       data-aos-delay="400"
                       data-aos="zoom-out">
-                      I make websites
+                      I make websites.
                       <span 
                         style={{visibility: (this.state.msg6 ? "visible" : "hidden" )}}>|
                       </span>
