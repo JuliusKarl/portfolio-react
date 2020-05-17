@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import fb from "./../resources/socialmedia/iconfinder_facebook_4492723.png"
-import ld from "./../resources/socialmedia/iconfinder_linkedin_4492722.png"
-import ig from "./../resources/socialmedia/iconfinder_instagram_4492724.png"
+import fb from "./../resources/socialmedia/iconfinder_facebook_4492723.png";
+import ld from "./../resources/socialmedia/iconfinder_linkedin_4492722.png";
+import ig from "./../resources/socialmedia/iconfinder_instagram_4492724.png";
+import './footer.css';
 
 class Footer extends Component {
   constructor() {

@@ -36,7 +36,7 @@ const projects = [
         "name": "Tasx",
         "description": "A Simple Redux Task Planner.",
         "image": "../resources/cardthumbs/jkmacro.JPG",
-        "link": "https://reduxplayground.netlify.com/",
+        "link": "https://Tasx.netlify.app/",
         "skills": "HTML . CSS . ES6 . Nodejs . Reactjs . Redux"
     },
     {
@@ -52,7 +52,7 @@ const projects = [
         "name": "Eugra v2",
         "description": "Social media app for vocal conversation built with ReactJS",
         "image": "",
-        "link": "https://eugra.juliuskarl.dev/",
+        "link": "https://eugra.netlify.app/",
         "skills": "HTML . CSS . ES6 . Reactjs . RESTful API"
     },
     {
