@@ -36,7 +36,7 @@ const projects = [
         "name": "Tasx",
         "description": "A Simple Redux Task Planner.",
         "image": "../resources/cardthumbs/jkmacro.JPG",
-        "link": "https://Tasx.netlify.app/",
+        "link": "https://tasx.netlify.app/",
         "skills": "HTML . CSS . ES6 . Nodejs . Reactjs . Redux"
     },
     {

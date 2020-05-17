@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './navbar.css';
 import CollapsedMenu from './collapsedMenu'
-import logo from "./../resources/logo.png"
+import logo from "./../resources/new/logo_invert_nobackground.png"
 
 class Navbar extends Component {
     constructor(props) {
