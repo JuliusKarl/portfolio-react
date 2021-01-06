@@ -6,7 +6,7 @@
   "homepage": "https://juliuskarl.dev",
   "dependencies": {
     "aos": "^2.3.4",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "nodemailer": "^6.4.6",
     "react": "^16.13.1",
     "react-device-detect": "^1.11.14",
